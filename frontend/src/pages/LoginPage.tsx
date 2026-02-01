@@ -1,7 +1,5 @@
-"use client";
-
 import { useState } from 'react';
-import { useRouter } from 'next/navigation';
+import { useNavigate } from 'react-router-dom';
 import { Loader2, ArrowRight, Eye, EyeOff } from 'lucide-react';
 import { api } from '@/lib/api';
 import { useAuthStore } from '@/lib/store';
@@ -11,7 +9,7 @@ import TiltCard from '@/components/TiltCard';
 import HolographicOverlay from '@/components/HolographicOverlay';
 
 export default function LoginPage() {
-  const router = useRouter();
+  const navigate = useNavigate();
   const { setAuth } = useAuthStore();
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
@@ -27,7 +25,7 @@ export default function LoginPage() {
     try {
       const res = await api.login({ username, password });
       setAuth(res.user, res.access_token);
-      router.push('/');
+      navigate('/');
     } catch (err: any) {
       setError(err.message || "Login failed");
     } finally {
@@ -49,14 +47,14 @@ export default function LoginPage() {
       <div className="absolute inset-0 z-0 opacity-50">
         <RiverFlow />
       </div>
-      
+
       {/* 4. Login Card (Interactive Layer) */}
       <TiltCard className="relative z-20 w-full max-w-md">
         <div className="p-8 glass rounded-2xl shadow-2xl border border-slate-700/50 backdrop-blur-xl bg-slate-900/40 relative group">
-          
+
           {/* Subtle glow behind the card */}
           <div className="absolute -inset-1 bg-gradient-to-r from-cyan-500/20 to-blue-600/20 rounded-2xl blur opacity-20 group-hover:opacity-40 transition duration-500"></div>
-          
+
           <div className="relative">
             <div className="text-center mb-8">
               <div className="w-16 h-16 bg-gradient-to-tr from-cyan-500 to-blue-600 rounded-2xl mx-auto flex items-center justify-center shadow-[0_0_30px_rgba(6,182,212,0.4)] mb-4 transform rotate-3 group-hover:rotate-6 transition-transform duration-500">
@@ -74,11 +72,11 @@ export default function LoginPage() {
                   {error === "Login failed" ? "登录失败，请检查用户名或密码" : error}
                 </div>
               )}
-              
+
               <div className="group/input">
                 <label className="block text-xs font-medium text-cyan-500/80 mb-1.5 uppercase tracking-wider group-focus-within/input:text-cyan-400 transition-colors">用户名</label>
-                <input 
-                  type="text" 
+                <input
+                  type="text"
                   value={username}
                   onChange={(e) => setUsername(e.target.value)}
                   className="w-full bg-slate-950/50 border border-slate-700/60 rounded-lg px-4 py-3 text-white focus:border-cyan-500 focus:ring-1 focus:ring-cyan-500/50 outline-none transition-all placeholder:text-slate-600"
@@ -90,7 +88,7 @@ export default function LoginPage() {
               <div className="group/input">
                 <label className="block text-xs font-medium text-cyan-500/80 mb-1.5 uppercase tracking-wider group-focus-within/input:text-cyan-400 transition-colors">密码</label>
                 <div className="relative">
-                  <input 
+                  <input
                     type={showPassword ? "text" : "password"}
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
@@ -108,14 +106,14 @@ export default function LoginPage() {
                 </div>
               </div>
 
-              <button 
-                type="submit" 
+              <button
+                type="submit"
                 disabled={loading}
                 className="w-full py-3.5 bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-500 hover:to-blue-500 text-white rounded-lg font-medium flex items-center justify-center gap-2 transition-all shadow-[0_0_20px_rgba(6,182,212,0.3)] hover:shadow-[0_0_30px_rgba(6,182,212,0.5)] hover:scale-[1.02] active:scale-[0.98] disabled:opacity-70 disabled:cursor-not-allowed mt-4 relative overflow-hidden"
               >
                 {loading ? <Loader2 className="w-5 h-5 animate-spin" /> : (
                   <>
-                    <span className="relative z-10">登录系统</span> 
+                    <span className="relative z-10">登录系统</span>
                     <ArrowRight className="w-4 h-4 relative z-10" />
                     <div className="absolute inset-0 bg-white/20 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-700 skew-x-12"></div>
                   </>
