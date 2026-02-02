@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find \"D:\\\\projects\\\\rss\\\\backend\\\\app\" -type f -name \"*.py\" -exec wc -l {} +)"
+    ]
+  }
+}
