@@ -53,3 +53,21 @@ class DocumentRegistry(SQLModel, table=True):
     ingested_at: Optional[datetime] = None
     created_at: datetime = Field(default_factory=datetime.utcnow)
 
+
+class ShorelineResult(SQLModel, table=True):
+    """
+    岸线识别结果表
+    存储从第4章、第5章岸线识别算法得到的结构化数据
+    用于数据流RAG检索
+    """
+    id: Optional[int] = Field(default=None, primary_key=True)
+    region: str = Field(index=True)  # 区域名称(如"朝阳区")
+    shoreline_type: str = Field(index=True)  # 岸线类型(自然岸线/人工岸线等)
+    length_km: float  # 岸线长度(公里)
+    confidence: float  # 识别置信度(0-1)
+    percentage: Optional[float] = None  # 占该区域岸线总长度的百分比
+    source_chapter: str  # 数据来源章节(如"第4章")
+    description: Optional[str] = None  # 补充描述
+    raw_data: Optional[str] = None  # 原始JSON数据
+    created_at: datetime = Field(default_factory=datetime.utcnow)
+

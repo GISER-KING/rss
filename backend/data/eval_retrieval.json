@@ -1,0 +1,19 @@
+{
+  "experiment": "检索性能评估",
+  "timestamp": "2026-03-13T18:22:19.907622",
+  "query_count": 50,
+  "results": {
+    "single_stream": {
+      "avg_latency_ms": 13.62,
+      "top_5_avg": 5.0,
+      "top_10_avg": 10.0,
+      "top_20_avg": 16.0
+    },
+    "dual_stream": {
+      "avg_latency_ms": 29.63,
+      "top_5_avg": 5.0,
+      "top_10_avg": 10.0,
+      "top_20_avg": 20.0
+    }
+  }
+}

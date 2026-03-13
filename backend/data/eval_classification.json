@@ -1,0 +1,373 @@
+{
+  "experiment": "任务分类准确率评估",
+  "timestamp": "2026-03-13T18:22:20.604475",
+  "total_queries": 50,
+  "correct": 41,
+  "accuracy": 0.82,
+  "per_class": {
+    "岸线知识问答": {
+      "total": 10,
+      "correct": 8,
+      "accuracy": 0.8
+    },
+    "岸线统计分析": {
+      "total": 10,
+      "correct": 10,
+      "accuracy": 1.0
+    },
+    "岸线类型识别": {
+      "total": 10,
+      "correct": 7,
+      "accuracy": 0.7
+    },
+    "水体提取": {
+      "total": 10,
+      "correct": 10,
+      "accuracy": 1.0
+    },
+    "区域对比分析": {
+      "total": 10,
+      "correct": 6,
+      "accuracy": 0.6
+    }
+  },
+  "confusion_matrix": {
+    "岸线知识问答": {
+      "岸线知识问答": 8,
+      "岸线统计分析": 1,
+      "岸线类型识别": 0,
+      "水体提取": 1,
+      "区域对比分析": 0
+    },
+    "岸线统计分析": {
+      "岸线知识问答": 0,
+      "岸线统计分析": 10,
+      "岸线类型识别": 0,
+      "水体提取": 0,
+      "区域对比分析": 0
+    },
+    "岸线类型识别": {
+      "岸线知识问答": 1,
+      "岸线统计分析": 0,
+      "岸线类型识别": 7,
+      "水体提取": 0,
+      "区域对比分析": 2
+    },
+    "水体提取": {
+      "岸线知识问答": 0,
+      "岸线统计分析": 0,
+      "岸线类型识别": 0,
+      "水体提取": 10,
+      "区域对比分析": 0
+    },
+    "区域对比分析": {
+      "岸线知识问答": 0,
+      "岸线统计分析": 2,
+      "岸线类型识别": 2,
+      "水体提取": 0,
+      "区域对比分析": 6
+    }
+  },
+  "details": [
+    {
+      "query": "什么是生态岸线？它有哪些主要特征？",
+      "gold": "岸线知识问答",
+      "predicted": "岸线知识问答",
+      "correct": true
+    },
+    {
+      "query": "自然岸线和人工岸线的区别是什么？",
+      "gold": "岸线知识问答",
+      "predicted": "岸线知识问答",
+      "correct": true
+    },
+    {
+      "query": "岸线识别的主要遥感方法有哪些？各自的优缺点是什么？",
+      "gold": "岸线知识问答",
+      "predicted": "岸线知识问答",
+      "correct": true
+    },
+    {
+      "query": "NDWI和MNDWI水体指数在岸线提取中的应用原理是什么？",
+      "gold": "岸线知识问答",
+      "predicted": "岸线知识问答",
+      "correct": true
+    },
+    {
+      "query": "混凝土护岸属于什么类型的岸线？其对河流生态有什么影响？",
+      "gold": "岸线知识问答",
+      "predicted": "岸线知识问答",
+      "correct": true
+    },
+    {
+      "query": "城市化进程对河流岸线的影响主要体现在哪些方面？",
+      "gold": "岸线知识问答",
+      "predicted": "岸线知识问答",
+      "correct": true
+    },
+    {
+      "query": "基于深度学习的岸线分类方法相比传统方法有哪些优势？",
+      "gold": "岸线知识问答",
+      "predicted": "岸线知识问答",
+      "correct": true
+    },
+    {
+      "query": "岸线保有率的定义是什么？如何计算？",
+      "gold": "岸线知识问答",
+      "predicted": "岸线统计分析",
+      "correct": false
+    },
+    {
+      "query": "遥感影像中水体与建筑物阴影容易混淆，有哪些区分策略？",
+      "gold": "岸线知识问答",
+      "predicted": "水体提取",
+      "correct": false
+    },
+    {
+      "query": "河流岸线生态修复的常见技术手段有哪些？",
+      "gold": "岸线知识问答",
+      "predicted": "岸线知识问答",
+      "correct": true
+    },
+    {
+      "query": "朝阳区有多少公里自然岸线？",
+      "gold": "岸线统计分析",
+      "predicted": "岸线统计分析",
+      "correct": true
+    },
+    {
+      "query": "统计各区域的岸线类型分布情况",
+      "gold": "岸线统计分析",
+      "predicted": "岸线统计分析",
+      "correct": true
+    },
+    {
+      "query": "计算全市人工岸线的平均置信度",
+      "gold": "岸线统计分析",
+      "predicted": "岸线统计分析",
+      "correct": true
+    },
+    {
+      "query": "海淀区人工岸线总长度是多少？占该区域岸线的百分比是多少？",
+      "gold": "岸线统计分析",
+      "predicted": "岸线统计分析",
+      "correct": true
+    },
+    {
+      "query": "哪些区域的自然岸线长度超过10公里？",
+      "gold": "岸线统计分析",
+      "predicted": "岸线统计分析",
+      "correct": true
+    },
+    {
+      "query": "按置信度从高到低排列所有岸线识别结果",
+      "gold": "岸线统计分析",
+      "predicted": "岸线统计分析",
+      "correct": true
+    },
+    {
+      "query": "全市所有区域的岸线总长度是多少？其中自然岸线和人工岸线各占多少比例？",
+      "gold": "岸线统计分析",
+      "predicted": "岸线统计分析",
+      "correct": true
+    },
+    {
+      "query": "统计置信度低于0.9的岸线记录有多少条？分布在哪些区域？",
+      "gold": "岸线统计分析",
+      "predicted": "岸线统计分析",
+      "correct": true
+    },
+    {
+      "query": "计算各区域岸线识别置信度的均值和标准差",
+      "gold": "岸线统计分析",
+      "predicted": "岸线统计分析",
+      "correct": true
+    },
+    {
+      "query": "列出长度最长的前5条岸线记录及其详细信息",
+      "gold": "岸线统计分析",
+      "predicted": "岸线统计分析",
+      "correct": true
+    },
+    {
+      "query": "识别温榆河段的岸线类型",
+      "gold": "岸线类型识别",
+      "predicted": "岸线类型识别",
+      "correct": true
+    },
+    {
+      "query": "分析永定河的岸线构成，包括各类型的长度和占比",
+      "gold": "岸线类型识别",
+      "predicted": "岸线类型识别",
+      "correct": true
+    },
+    {
+      "query": "朝阳区温榆河段的混凝土护岸属于哪种岸线类型？",
+      "gold": "岸线类型识别",
+      "predicted": "岸线类型识别",
+      "correct": true
+    },
+    {
+      "query": "对给定坐标区域内的岸线进行自动分类",
+      "gold": "岸线类型识别",
+      "predicted": "岸线类型识别",
+      "correct": true
+    },
+    {
+      "query": "识别这段河流岸线中哪些部分是自然岸线，哪些是人工改造过的",
+      "gold": "岸线类型识别",
+      "predicted": "岸线知识问答",
+      "correct": false
+    },
+    {
+      "query": "分析北运河城区段的岸线类型并判断生态岸线的比例",
+      "gold": "岸线类型识别",
+      "predicted": "区域对比分析",
+      "correct": false
+    },
+    {
+      "query": "判断海淀区永定河段是否存在未被识别的自然岸线段",
+      "gold": "岸线类型识别",
+      "predicted": "区域对比分析",
+      "correct": false
+    },
+    {
+      "query": "通州区潮白河的岸线类型组成是怎样的？",
+      "gold": "岸线类型识别",
+      "predicted": "岸线类型识别",
+      "correct": true
+    },
+    {
+      "query": "识别某河段中植被覆盖较好的自然岸线区域",
+      "gold": "岸线类型识别",
+      "predicted": "岸线类型识别",
+      "correct": true
+    },
+    {
+      "query": "综合遥感数据和实地调查结果，判断清河段的岸线类型及其变化趋势",
+      "gold": "岸线类型识别",
+      "predicted": "岸线类型识别",
+      "correct": true
+    },
+    {
+      "query": "提取这张影像中的水体边界",
+      "gold": "水体提取",
+      "predicted": "水体提取",
+      "correct": true
+    },
+    {
+      "query": "从卫星图中识别河流范围并输出边界坐标",
+      "gold": "水体提取",
+      "predicted": "水体提取",
+      "correct": true
+    },
+    {
+      "query": "使用上传的Sentinel-2影像提取温榆河的水体范围",
+      "gold": "水体提取",
+      "predicted": "水体提取",
+      "correct": true
+    },
+    {
+      "query": "提取影像中所有水体并区分河流、湖泊和水库",
+      "gold": "水体提取",
+      "predicted": "水体提取",
+      "correct": true
+    },
+    {
+      "query": "识别这张遥感影像中永定河的主河道边界",
+      "gold": "水体提取",
+      "predicted": "水体提取",
+      "correct": true
+    },
+    {
+      "query": "从高分辨率无人机影像中提取小型水塘的边界",
+      "gold": "水体提取",
+      "predicted": "水体提取",
+      "correct": true
+    },
+    {
+      "query": "对上传的多时相影像分别提取水体，对比不同时期的水域面积变化",
+      "gold": "水体提取",
+      "predicted": "水体提取",
+      "correct": true
+    },
+    {
+      "query": "提取影像中北运河与温榆河交汇处的水体边界",
+      "gold": "水体提取",
+      "predicted": "水体提取",
+      "correct": true
+    },
+    {
+      "query": "基于Landsat影像提取朝阳区范围内的所有水体",
+      "gold": "水体提取",
+      "predicted": "水体提取",
+      "correct": true
+    },
+    {
+      "query": "从冬季影像中提取结冰河流的水体边界，并与夏季结果对比",
+      "gold": "水体提取",
+      "predicted": "水体提取",
+      "correct": true
+    },
+    {
+      "query": "对比朝阳区和海淀区的岸线构成",
+      "gold": "区域对比分析",
+      "predicted": "区域对比分析",
+      "correct": true
+    },
+    {
+      "query": "山区和平原地区的自然岸线占比差异有多大？",
+      "gold": "区域对比分析",
+      "predicted": "区域对比分析",
+      "correct": true
+    },
+    {
+      "query": "哪个区域的自然岸线占比最高？哪个区域最低？",
+      "gold": "区域对比分析",
+      "predicted": "区域对比分析",
+      "correct": true
+    },
+    {
+      "query": "比较朝阳区温榆河段和海淀区永定河段的岸线识别置信度",
+      "gold": "区域对比分析",
+      "predicted": "岸线类型识别",
+      "correct": false
+    },
+    {
+      "query": "各区域人工岸线的比例排名是怎样的？",
+      "gold": "区域对比分析",
+      "predicted": "岸线统计分析",
+      "correct": false
+    },
+    {
+      "query": "对比不同河流（温榆河、永定河、北运河）沿岸的岸线类型差异",
+      "gold": "区域对比分析",
+      "predicted": "岸线类型识别",
+      "correct": false
+    },
+    {
+      "query": "分析城区与郊区岸线生态化程度的差异，并解释可能的原因",
+      "gold": "区域对比分析",
+      "predicted": "区域对比分析",
+      "correct": true
+    },
+    {
+      "query": "朝阳区和海淀区的岸线总长度相差多少？岸线类型分布有何不同？",
+      "gold": "区域对比分析",
+      "predicted": "区域对比分析",
+      "correct": true
+    },
+    {
+      "query": "对比2020年和2023年各区域人工岸线占比的变化趋势",
+      "gold": "区域对比分析",
+      "predicted": "岸线统计分析",
+      "correct": false
+    },
+    {
+      "query": "综合对比所有区域的岸线质量指标，生成区域排名和改善建议",
+      "gold": "区域对比分析",
+      "predicted": "区域对比分析",
+      "correct": true
+    }
+  ]
+}

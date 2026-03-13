@@ -4,7 +4,7 @@ from sse_starlette.sse import EventSourceResponse
 from sqlmodel import select
 from ..core.db import get_session
 from ..db.models import User, Conversation, Message
-from ..agents.river_agent import build_agent, stream_agent
+from ..agents.river_agent import build_enhanced_agent, enhanced_stream_agent
 
 
 router = APIRouter(prefix="/chat", tags=["chat"])
@@ -43,7 +43,7 @@ def get_messages(conversation_id: int):
                 "content": m.content,
                 "metadata": {"file_name": None} if not m.meta_info else {"file_name": m.meta_info}, # Simple adaptation
                 "created_at": m.created_at.isoformat()
-            } 
+            }
             for m in msgs
         ]
 
@@ -98,31 +98,28 @@ async def stream_chat(
         c = s.get(Conversation, conversation_id)
         if c is None:
             raise HTTPException(status_code=404, detail="conversation not found")
-        
+
         last = s.exec(
             select(Message).where(Message.conversation_id == conversation_id).order_by(Message.id.desc())
         ).first()
         if last is None:
             raise HTTPException(status_code=400, detail="no user message")
-        
-        agent = build_agent(u.api_base_url, u.api_key, mode=c.mode)
+
+        # 使用增强型Agent（双流RAG + 任务感知 + 层次化提示）
+        agent, dual_kb, solution_db = build_enhanced_agent(
+            u.api_base_url, u.api_key, mode=c.mode
+        )
 
     async def gen():
         try:
-            # We must use a separate thread for the synchronous generator to avoid blocking the async loop
-            # However, sse_starlette and fastapi handle iterables well. 
-            # The issue might be that agent.run returns a sync generator.
-            
-            # Since stream_agent yields strings, we iterate over it.
-            # If agent.run is blocking, it might cause issues, but for now let's try direct iteration.
-            
-            # Capture the generator first
-            generator = stream_agent(agent, last.content, str(conversation_id))
-            
+            generator = enhanced_stream_agent(
+                agent, dual_kb, solution_db,
+                last.content, str(conversation_id)
+            )
+
             for chunk in generator:
-                # Ensure we are yielding valid JSON-serializable data
                 yield {"event": "message", "data": chunk}
-                
+
             yield {"event": "end", "data": "[DONE]"}
         except Exception as e:
             print(f"Error during streaming: {e}")
@@ -130,3 +127,17 @@ async def stream_chat(
 
     return EventSourceResponse(gen())
 
+
+@router.get("/knowledge/stats")
+def knowledge_stats():
+    """获取知识库统计信息"""
+    from ..agents.river_agent import build_dual_stream_kb
+    try:
+        dual_kb = build_dual_stream_kb()
+        return dual_kb.get_statistics()
+    except Exception as e:
+        return {
+            "document_stream": {"count": 0},
+            "data_stream": {"count": 0},
+            "error": str(e)
+        }

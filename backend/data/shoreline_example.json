@@ -1,0 +1,1086 @@
+{
+  "description": "北京市各区岸线资源调查数据，涵盖自然岸线、人工岸线及生态修复岸线的分布与长度统计",
+  "source": "北京市水务局河湖岸线保护与利用规划（2024年度）",
+  "results": [
+    {
+      "region": "朝阳区",
+      "shoreline_type": "自然岸线",
+      "length_km": 8.3,
+      "confidence": 0.91,
+      "percentage": 22.5,
+      "source_chapter": "第4章",
+      "description": "朝阳区自然岸线主要分布于温榆河与坝河沿岸，保留了部分原始河道形态，植被覆盖率较高"
+    },
+    {
+      "region": "朝阳区",
+      "shoreline_type": "人工岸线",
+      "length_km": 21.6,
+      "confidence": 0.94,
+      "percentage": 58.5,
+      "source_chapter": "第4章",
+      "description": "朝阳区人工岸线以混凝土护坡和浆砌石挡墙为主，集中分布在亮马河、通惠河城区段及CBD核心区周边"
+    },
+    {
+      "region": "朝阳区",
+      "shoreline_type": "生态修复岸线",
+      "length_km": 7.0,
+      "confidence": 0.89,
+      "percentage": 19.0,
+      "source_chapter": "第5章",
+      "description": "朝阳区生态修复岸线主要位于亮马河国际风情水岸项目段及温榆河公园朝阳示范区"
+    },
+    {
+      "region": "朝阳区",
+      "shoreline_type": "人工岸线",
+      "length_km": 12.4,
+      "confidence": 0.92,
+      "percentage": null,
+      "source_chapter": "第4章",
+      "description": "朝阳区温榆河流域人工岸线长度统计，含温榆河干流及支流萧太后河部分河段"
+    },
+    {
+      "region": "海淀区",
+      "shoreline_type": "自然岸线",
+      "length_km": 6.8,
+      "confidence": 0.90,
+      "percentage": 20.0,
+      "source_chapter": "第4章",
+      "description": "海淀区自然岸线主要分布于西山脚下的南旱河上游段及颐和园昆明湖西北侧山体岸段"
+    },
+    {
+      "region": "海淀区",
+      "shoreline_type": "人工岸线",
+      "length_km": 20.4,
+      "confidence": 0.93,
+      "percentage": 60.0,
+      "source_chapter": "第4章",
+      "description": "海淀区人工岸线以城市河道硬化护砌为主，集中在万泉河、清河中段及中关村科学城周边排水渠"
+    },
+    {
+      "region": "海淀区",
+      "shoreline_type": "生态修复岸线",
+      "length_km": 6.8,
+      "confidence": 0.88,
+      "percentage": 20.0,
+      "source_chapter": "第5章",
+      "description": "海淀区生态修复岸线分布于清河两岸生态廊道工程段及翠湖湿地公园环湖岸线"
+    },
+    {
+      "region": "海淀区",
+      "shoreline_type": "自然岸线",
+      "length_km": 3.5,
+      "confidence": 0.87,
+      "percentage": null,
+      "source_chapter": "第5章",
+      "description": "海淀区永定河引水渠沿线自然岸线调查数据，该段岸线受西山地形影响保留较多自然特征"
+    },
+    {
+      "region": "通州区",
+      "shoreline_type": "自然岸线",
+      "length_km": 14.2,
+      "confidence": 0.92,
+      "percentage": 32.0,
+      "source_chapter": "第4章",
+      "description": "通州区自然岸线主要分布于北运河下游及潮白河通州段，河道宽阔，两岸保留有较完整的滩涂湿地"
+    },
+    {
+      "region": "通州区",
+      "shoreline_type": "人工岸线",
+      "length_km": 18.7,
+      "confidence": 0.93,
+      "percentage": 42.0,
+      "source_chapter": "第4章",
+      "description": "通州区人工岸线集中在城市副中心运河商务区段及北运河城区段，采用景观化硬质护坡"
+    },
+    {
+      "region": "通州区",
+      "shoreline_type": "生态修复岸线",
+      "length_km": 11.6,
+      "confidence": 0.90,
+      "percentage": 26.0,
+      "source_chapter": "第5章",
+      "description": "通州区生态修复岸线位于北运河两岸绿色生态带及温榆河通州段湿地恢复工程区域"
+    },
+    {
+      "region": "通州区",
+      "shoreline_type": "自然岸线",
+      "length_km": 8.6,
+      "confidence": 0.91,
+      "percentage": null,
+      "source_chapter": "第4章",
+      "description": "通州区北运河流域自然岸线专项调查，涵盖北运河干流及温榆河汇入口至区界河段"
+    },
+    {
+      "region": "通州区",
+      "shoreline_type": "生态修复岸线",
+      "length_km": 5.3,
+      "confidence": 0.88,
+      "percentage": null,
+      "source_chapter": "第5章",
+      "description": "通州区潮白河流域生态修复岸线统计，主要为潮白河西岸防洪堤生态化改造工程"
+    },
+    {
+      "region": "丰台区",
+      "shoreline_type": "自然岸线",
+      "length_km": 5.2,
+      "confidence": 0.89,
+      "percentage": 18.0,
+      "source_chapter": "第4章",
+      "description": "丰台区自然岸线分布于永定河丰台段河漫滩区域及大宁水库周边，保留了部分原始河岸地貌"
+    },
+    {
+      "region": "丰台区",
+      "shoreline_type": "人工岸线",
+      "length_km": 17.3,
+      "confidence": 0.94,
+      "percentage": 60.0,
+      "source_chapter": "第4章",
+      "description": "丰台区人工岸线以永定河城区段混凝土堤防和凉水河硬质护坡为主，兼有丽泽金融商务区景观河道"
+    },
+    {
+      "region": "丰台区",
+      "shoreline_type": "生态修复岸线",
+      "length_km": 6.3,
+      "confidence": 0.87,
+      "percentage": 22.0,
+      "source_chapter": "第5章",
+      "description": "丰台区生态修复岸线主要位于永定河平原段生态补水工程沿线及南苑湿地公园周边"
+    },
+    {
+      "region": "丰台区",
+      "shoreline_type": "人工岸线",
+      "length_km": 9.8,
+      "confidence": 0.92,
+      "percentage": null,
+      "source_chapter": "第4章",
+      "description": "丰台区永定河流域人工岸线详细统计，涵盖卢沟桥至大兴区界永定河右岸堤防"
+    },
+    {
+      "region": "大兴区",
+      "shoreline_type": "自然岸线",
+      "length_km": 12.5,
+      "confidence": 0.91,
+      "percentage": 30.0,
+      "source_chapter": "第4章",
+      "description": "大兴区自然岸线主要分布于永定河大兴段及天堂河下游，河道两岸保有连片的河滩林地"
+    },
+    {
+      "region": "大兴区",
+      "shoreline_type": "人工岸线",
+      "length_km": 17.5,
+      "confidence": 0.93,
+      "percentage": 42.0,
+      "source_chapter": "第4章",
+      "description": "大兴区人工岸线集中于新城核心区排水河道及大兴国际机场周边水系整治工程段"
+    },
+    {
+      "region": "大兴区",
+      "shoreline_type": "生态修复岸线",
+      "length_km": 11.7,
+      "confidence": 0.89,
+      "percentage": 28.0,
+      "source_chapter": "第5章",
+      "description": "大兴区生态修复岸线位于永定河大兴段生态修复工程及南海子公园湿地恢复区域"
+    },
+    {
+      "region": "大兴区",
+      "shoreline_type": "自然岸线",
+      "length_km": 6.1,
+      "confidence": 0.88,
+      "percentage": null,
+      "source_chapter": "第5章",
+      "description": "大兴区平原地区自然岸线分布调查，以永定河泛区内残留自然河道形态为主"
+    },
+    {
+      "region": "顺义区",
+      "shoreline_type": "自然岸线",
+      "length_km": 15.8,
+      "confidence": 0.92,
+      "percentage": 35.0,
+      "source_chapter": "第4章",
+      "description": "顺义区自然岸线主要分布于潮白河顺义段，河道开阔，两岸滩地保留了大面积的自然植被群落"
+    },
+    {
+      "region": "顺义区",
+      "shoreline_type": "人工岸线",
+      "length_km": 16.2,
+      "confidence": 0.93,
+      "percentage": 36.0,
+      "source_chapter": "第4章",
+      "description": "顺义区人工岸线分布于温榆河顺义段两岸及顺义新城排水河道，以浆砌石护坡为主要形式"
+    },
+    {
+      "region": "顺义区",
+      "shoreline_type": "生态修复岸线",
+      "length_km": 13.0,
+      "confidence": 0.90,
+      "percentage": 29.0,
+      "source_chapter": "第5章",
+      "description": "顺义区生态修复岸线位于温榆河公园顺义段及潮白河生态涵养带工程区域"
+    },
+    {
+      "region": "顺义区",
+      "shoreline_type": "自然岸线",
+      "length_km": 9.2,
+      "confidence": 0.91,
+      "percentage": null,
+      "source_chapter": "第4章",
+      "description": "顺义区潮白河流域自然岸线专项统计，含潮白河干流及其支流箭杆河自然河段"
+    },
+    {
+      "region": "昌平区",
+      "shoreline_type": "自然岸线",
+      "length_km": 18.6,
+      "confidence": 0.93,
+      "percentage": 42.0,
+      "source_chapter": "第4章",
+      "description": "昌平区自然岸线分布于北部山区的白河支流及南口沟域，山区河道岸线自然特征显著"
+    },
+    {
+      "region": "昌平区",
+      "shoreline_type": "人工岸线",
+      "length_km": 14.2,
+      "confidence": 0.92,
+      "percentage": 32.0,
+      "source_chapter": "第4章",
+      "description": "昌平区人工岸线集中在南部平原区的温榆河昌平段及回龙观、天通苑城区排水河道"
+    },
+    {
+      "region": "昌平区",
+      "shoreline_type": "生态修复岸线",
+      "length_km": 11.5,
+      "confidence": 0.89,
+      "percentage": 26.0,
+      "source_chapter": "第5章",
+      "description": "昌平区生态修复岸线位于温榆河公园昌平段及十三陵水库周边岸线生态化改造区域"
+    },
+    {
+      "region": "昌平区",
+      "shoreline_type": "自然岸线",
+      "length_km": 10.4,
+      "confidence": 0.91,
+      "percentage": null,
+      "source_chapter": "第5章",
+      "description": "昌平区山区自然岸线分类统计，以燕山山脉南麓沟域型河道两岸原始岩石岸线为主"
+    },
+    {
+      "region": "昌平区",
+      "shoreline_type": "人工岸线",
+      "length_km": 7.8,
+      "confidence": 0.90,
+      "percentage": null,
+      "source_chapter": "第4章",
+      "description": "昌平区温榆河流域人工岸线统计，涵盖东沙河、北沙河汇流后至顺义区界河段护砌工程"
+    },
+    {
+      "region": "房山区",
+      "shoreline_type": "自然岸线",
+      "length_km": 24.3,
+      "confidence": 0.94,
+      "percentage": 48.0,
+      "source_chapter": "第4章",
+      "description": "房山区自然岸线主要分布于拒马河房山段及大石河上游山区段，峡谷地貌保存完好，岸线自然度极高"
+    },
+    {
+      "region": "房山区",
+      "shoreline_type": "人工岸线",
+      "length_km": 13.6,
+      "confidence": 0.92,
+      "percentage": 27.0,
+      "source_chapter": "第4章",
+      "description": "房山区人工岸线分布于良乡新城排水河道及大石河平原段堤防工程，以防洪标准化堤防为主"
+    },
+    {
+      "region": "房山区",
+      "shoreline_type": "生态修复岸线",
+      "length_km": 12.6,
+      "confidence": 0.90,
+      "percentage": 25.0,
+      "source_chapter": "第5章",
+      "description": "房山区生态修复岸线位于大石河中下游河道综合治理工程段及琉璃河湿地恢复区"
+    },
+    {
+      "region": "房山区",
+      "shoreline_type": "自然岸线",
+      "length_km": 14.7,
+      "confidence": 0.93,
+      "percentage": null,
+      "source_chapter": "第4章",
+      "description": "房山区拒马河流域自然岸线专项调查，拒马河十渡至张坊段峡谷岸线为核心保护对象"
+    },
+    {
+      "region": "房山区",
+      "shoreline_type": "生态修复岸线",
+      "length_km": 5.8,
+      "confidence": 0.87,
+      "percentage": null,
+      "source_chapter": "第5章",
+      "description": "房山区永定河流域生态修复岸线统计，主要涉及永定河房山段河滩地生态恢复工程"
+    },
+    {
+      "region": "门头沟区",
+      "shoreline_type": "自然岸线",
+      "length_km": 28.5,
+      "confidence": 0.95,
+      "percentage": 52.0,
+      "source_chapter": "第4章",
+      "description": "门头沟区自然岸线广泛分布于永定河山峡段及清水河、大台沟等山区支流，峡谷型岸线占比最高"
+    },
+    {
+      "region": "门头沟区",
+      "shoreline_type": "人工岸线",
+      "length_km": 12.3,
+      "confidence": 0.91,
+      "percentage": 22.5,
+      "source_chapter": "第4章",
+      "description": "门头沟区人工岸线主要分布在永定河门城段及城关镇排水河道，以钢筋混凝土防洪墙为主"
+    },
+    {
+      "region": "门头沟区",
+      "shoreline_type": "生态修复岸线",
+      "length_km": 14.0,
+      "confidence": 0.89,
+      "percentage": 25.5,
+      "source_chapter": "第5章",
+      "description": "门头沟区生态修复岸线位于永定河综合治理与生态修复工程门头沟段，2023年水毁修复后岸线生态化比例提升"
+    },
+    {
+      "region": "门头沟区",
+      "shoreline_type": "自然岸线",
+      "length_km": 18.2,
+      "confidence": 0.94,
+      "percentage": null,
+      "source_chapter": "第4章",
+      "description": "门头沟区永定河流域山区段自然岸线详细统计，含珠窝水库以上河段两岸原始地貌"
+    },
+    {
+      "region": "门头沟区",
+      "shoreline_type": "自然岸线",
+      "length_km": 10.3,
+      "confidence": 0.93,
+      "percentage": null,
+      "source_chapter": "第5章",
+      "description": "门头沟区清水河支流山区自然岸线调查，清水镇至斋堂镇段河道两岸自然岸线保持完好"
+    },
+    {
+      "region": "怀柔区",
+      "shoreline_type": "自然岸线",
+      "length_km": 30.2,
+      "confidence": 0.95,
+      "percentage": 55.0,
+      "source_chapter": "第4章",
+      "description": "怀柔区自然岸线大量分布于怀河上游、白河及汤河山区段，燕山深处河道自然岸线保存极为完整"
+    },
+    {
+      "region": "怀柔区",
+      "shoreline_type": "人工岸线",
+      "length_km": 10.9,
+      "confidence": 0.91,
+      "percentage": 20.0,
+      "source_chapter": "第4章",
+      "description": "怀柔区人工岸线集中在怀柔新城雁栖河城区段及怀柔科学城周边水系工程"
+    },
+    {
+      "region": "怀柔区",
+      "shoreline_type": "生态修复岸线",
+      "length_km": 13.7,
+      "confidence": 0.90,
+      "percentage": 25.0,
+      "source_chapter": "第5章",
+      "description": "怀柔区生态修复岸线位于雁栖湖周边景观岸线改造区及怀河中游生态治理工程段"
+    },
+    {
+      "region": "怀柔区",
+      "shoreline_type": "自然岸线",
+      "length_km": 15.6,
+      "confidence": 0.94,
+      "percentage": null,
+      "source_chapter": "第4章",
+      "description": "怀柔区白河流域自然岸线统计，含白河从密云区界至怀柔水库入库段的山区河道两岸"
+    },
+    {
+      "region": "怀柔区",
+      "shoreline_type": "生态修复岸线",
+      "length_km": 6.4,
+      "confidence": 0.88,
+      "percentage": null,
+      "source_chapter": "第5章",
+      "description": "怀柔区山区地形条件下的生态修复岸线统计，以汤河口镇至宝山镇段近自然护岸工程为主"
+    },
+    {
+      "region": "密云区",
+      "shoreline_type": "自然岸线",
+      "length_km": 34.8,
+      "confidence": 0.96,
+      "percentage": 56.0,
+      "source_chapter": "第4章",
+      "description": "密云区自然岸线为全市最长，主要分布于密云水库上游潮河、白河山区段及安达木河流域，生态本底优良"
+    },
+    {
+      "region": "密云区",
+      "shoreline_type": "人工岸线",
+      "length_km": 11.2,
+      "confidence": 0.91,
+      "percentage": 18.0,
+      "source_chapter": "第4章",
+      "description": "密云区人工岸线主要分布在密云新城潮河城区段及密云水库大坝下游泄洪渠两岸"
+    },
+    {
+      "region": "密云区",
+      "shoreline_type": "生态修复岸线",
+      "length_km": 16.2,
+      "confidence": 0.90,
+      "percentage": 26.0,
+      "source_chapter": "第5章",
+      "description": "密云区生态修复岸线位于密云水库环库公路沿线岸坡生态化工程及潮河中游生态缓冲带"
+    },
+    {
+      "region": "密云区",
+      "shoreline_type": "自然岸线",
+      "length_km": 19.3,
+      "confidence": 0.95,
+      "percentage": null,
+      "source_chapter": "第4章",
+      "description": "密云区潮白河流域潮河支系自然岸线统计，古北口至密云水库入库口段峡谷岸线保存完整"
+    },
+    {
+      "region": "密云区",
+      "shoreline_type": "自然岸线",
+      "length_km": 15.5,
+      "confidence": 0.94,
+      "percentage": null,
+      "source_chapter": "第5章",
+      "description": "密云区潮白河流域白河支系自然岸线统计，四合堂至密云水库白河入库口段为重点保护河段"
+    },
+    {
+      "region": "延庆区",
+      "shoreline_type": "自然岸线",
+      "length_km": 26.4,
+      "confidence": 0.95,
+      "percentage": 50.0,
+      "source_chapter": "第4章",
+      "description": "延庆区自然岸线分布于妫水河上游山区段及白河堡水库周边，延庆盆地外围山区河道自然度高"
+    },
+    {
+      "region": "延庆区",
+      "shoreline_type": "人工岸线",
+      "length_km": 12.7,
+      "confidence": 0.92,
+      "percentage": 24.0,
+      "source_chapter": "第4章",
+      "description": "延庆区人工岸线集中在延庆新城妫水河城区段及世园会园区周边水系整治河段"
+    },
+    {
+      "region": "延庆区",
+      "shoreline_type": "生态修复岸线",
+      "length_km": 13.7,
+      "confidence": 0.90,
+      "percentage": 26.0,
+      "source_chapter": "第5章",
+      "description": "延庆区生态修复岸线位于妫水河世园段滨水景观带及官厅水库延庆辖区库滨带生态恢复工程"
+    },
+    {
+      "region": "延庆区",
+      "shoreline_type": "自然岸线",
+      "length_km": 12.8,
+      "confidence": 0.93,
+      "percentage": null,
+      "source_chapter": "第4章",
+      "description": "延庆区山区地形条件下的自然岸线统计，以海坨山南麓及松山自然保护区内沟域河道为主"
+    },
+    {
+      "region": "延庆区",
+      "shoreline_type": "生态修复岸线",
+      "length_km": 7.2,
+      "confidence": 0.88,
+      "percentage": null,
+      "source_chapter": "第5章",
+      "description": "延庆区妫水河流域生态修复岸线专项统计，含妫水河干流两岸湿地植被恢复工程段"
+    },
+    {
+      "region": "石景山区",
+      "shoreline_type": "自然岸线",
+      "length_km": 3.2,
+      "confidence": 0.88,
+      "percentage": 18.0,
+      "source_chapter": "第4章",
+      "description": "石景山区自然岸线主要位于永定河引水渠石景山段西侧山脚处，受西山地形影响保留少量自然岸坡"
+    },
+    {
+      "region": "石景山区",
+      "shoreline_type": "人工岸线",
+      "length_km": 11.2,
+      "confidence": 0.93,
+      "percentage": 62.0,
+      "source_chapter": "第4章",
+      "description": "石景山区人工岸线以永定河石景山段防洪堤防及首钢园区周边水系硬质护岸为主"
+    },
+    {
+      "region": "石景山区",
+      "shoreline_type": "生态修复岸线",
+      "length_km": 3.6,
+      "confidence": 0.86,
+      "percentage": 20.0,
+      "source_chapter": "第5章",
+      "description": "石景山区生态修复岸线位于首钢园区永定河左岸滨水空间改造段及永定河休闲森林公园"
+    },
+    {
+      "region": "石景山区",
+      "shoreline_type": "人工岸线",
+      "length_km": 7.5,
+      "confidence": 0.91,
+      "percentage": null,
+      "source_chapter": "第4章",
+      "description": "石景山区永定河流域人工岸线统计，含永定河莲石湖至首钢大桥段两岸钢筋混凝土护坡"
+    },
+    {
+      "region": "平谷区",
+      "shoreline_type": "自然岸线",
+      "length_km": 22.7,
+      "confidence": 0.94,
+      "percentage": 50.0,
+      "source_chapter": "第4章",
+      "description": "平谷区自然岸线分布于泃河上游山区段及洳河北部山区支流，燕山东段山区河道自然岸线保存良好"
+    },
+    {
+      "region": "平谷区",
+      "shoreline_type": "人工岸线",
+      "length_km": 11.3,
+      "confidence": 0.91,
+      "percentage": 25.0,
+      "source_chapter": "第4章",
+      "description": "平谷区人工岸线集中在平谷新城洳河城区段及泃河平原段防洪堤防工程"
+    },
+    {
+      "region": "平谷区",
+      "shoreline_type": "生态修复岸线",
+      "length_km": 11.3,
+      "confidence": 0.89,
+      "percentage": 25.0,
+      "source_chapter": "第5章",
+      "description": "平谷区生态修复岸线位于泃河中游生态治理工程段及金海湖周边库滨带植被恢复区"
+    },
+    {
+      "region": "平谷区",
+      "shoreline_type": "自然岸线",
+      "length_km": 13.4,
+      "confidence": 0.93,
+      "percentage": null,
+      "source_chapter": "第5章",
+      "description": "平谷区山区自然岸线分类统计，以四座楼自然保护区及黄松峪地质公园内沟域河道为主"
+    },
+    {
+      "region": "东城区",
+      "shoreline_type": "自然岸线",
+      "length_km": 2.1,
+      "confidence": 0.85,
+      "percentage": 14.0,
+      "source_chapter": "第4章",
+      "description": "东城区自然岸线极为稀少，仅在龙潭湖公园局部湖岸及护城河个别弯道处保留少量自然岸段"
+    },
+    {
+      "region": "东城区",
+      "shoreline_type": "人工岸线",
+      "length_km": 10.5,
+      "confidence": 0.94,
+      "percentage": 70.0,
+      "source_chapter": "第4章",
+      "description": "东城区人工岸线以北护城河、南护城河东城段石砌护坡为主，历史悠久，多为清代及民国时期修建"
+    },
+    {
+      "region": "东城区",
+      "shoreline_type": "生态修复岸线",
+      "length_km": 2.4,
+      "confidence": 0.84,
+      "percentage": 16.0,
+      "source_chapter": "第5章",
+      "description": "东城区生态修复岸线位于亮马河东城段滨水步道改造工程及龙潭中湖公园生态化改造区域"
+    },
+    {
+      "region": "东城区",
+      "shoreline_type": "人工岸线",
+      "length_km": 6.3,
+      "confidence": 0.92,
+      "percentage": null,
+      "source_chapter": "第4章",
+      "description": "东城区护城河体系人工岸线详细统计，含北护城河安定门至东直门段及南护城河文化遗产保护段"
+    },
+    {
+      "region": "西城区",
+      "shoreline_type": "自然岸线",
+      "length_km": 2.0,
+      "confidence": 0.84,
+      "percentage": 13.0,
+      "source_chapter": "第4章",
+      "description": "西城区自然岸线仅存于什刹海后海北岸局部及北护城河西段个别未改造弯道处"
+    },
+    {
+      "region": "西城区",
+      "shoreline_type": "人工岸线",
+      "length_km": 10.8,
+      "confidence": 0.94,
+      "percentage": 72.0,
+      "source_chapter": "第4章",
+      "description": "西城区人工岸线以南北护城河西城段、什刹海景区石砌驳岸及西便门外护城河硬质护坡为主"
+    },
+    {
+      "region": "西城区",
+      "shoreline_type": "生态修复岸线",
+      "length_km": 2.2,
+      "confidence": 0.83,
+      "percentage": 15.0,
+      "source_chapter": "第5章",
+      "description": "西城区生态修复岸线位于什刹海前海南岸亲水平台改造段及西海湿地公园环湖生态驳岸"
+    },
+    {
+      "region": "西城区",
+      "shoreline_type": "生态修复岸线",
+      "length_km": 2.0,
+      "confidence": 0.82,
+      "percentage": null,
+      "source_chapter": "第5章",
+      "description": "西城区什刹海水系生态修复岸线专项统计，含西海湿地公园及后海沿岸生态缓冲带建设工程"
+    },
+    {
+      "region": "朝阳区",
+      "shoreline_type": "自然岸线",
+      "length_km": 4.7,
+      "confidence": 0.89,
+      "percentage": null,
+      "source_chapter": "第5章",
+      "description": "朝阳区北运河流域自然岸线分布统计，含坝河入北运河口及通惠河下游朝阳段自然河岸"
+    },
+    {
+      "region": "朝阳区",
+      "shoreline_type": "生态修复岸线",
+      "length_km": 3.8,
+      "confidence": 0.87,
+      "percentage": null,
+      "source_chapter": "第5章",
+      "description": "朝阳区温榆河流域生态修复岸线统计，温榆河公园朝阳段一期工程完成岸线生态化改造"
+    },
+    {
+      "region": "海淀区",
+      "shoreline_type": "人工岸线",
+      "length_km": 8.6,
+      "confidence": 0.92,
+      "percentage": null,
+      "source_chapter": "第4章",
+      "description": "海淀区北运河流域上游人工岸线统计，含清河海淀段及万泉河暗渠出口至清河入口段"
+    },
+    {
+      "region": "丰台区",
+      "shoreline_type": "生态修复岸线",
+      "length_km": 3.5,
+      "confidence": 0.86,
+      "percentage": null,
+      "source_chapter": "第5章",
+      "description": "丰台区平原地区凉水河流域生态修复岸线统计，以凉水河丰台段生态廊道建设工程为主"
+    },
+    {
+      "region": "大兴区",
+      "shoreline_type": "人工岸线",
+      "length_km": 8.4,
+      "confidence": 0.91,
+      "percentage": null,
+      "source_chapter": "第4章",
+      "description": "大兴区永定河流域人工岸线统计，含永定河大兴段左岸防洪堤及新机场蓄滞洪区围堤"
+    },
+    {
+      "region": "顺义区",
+      "shoreline_type": "生态修复岸线",
+      "length_km": 7.1,
+      "confidence": 0.88,
+      "percentage": null,
+      "source_chapter": "第5章",
+      "description": "顺义区温榆河流域生态修复岸线统计，温榆河顺义段两岸绿道及生态缓冲带建设工程"
+    },
+    {
+      "region": "顺义区",
+      "shoreline_type": "人工岸线",
+      "length_km": 5.6,
+      "confidence": 0.90,
+      "percentage": null,
+      "source_chapter": "第4章",
+      "description": "顺义区潮白河流域人工岸线统计，含潮白河橡胶坝群及牛栏山段防洪堤工程"
+    },
+    {
+      "region": "门头沟区",
+      "shoreline_type": "生态修复岸线",
+      "length_km": 8.7,
+      "confidence": 0.88,
+      "percentage": null,
+      "source_chapter": "第5章",
+      "description": "门头沟区永定河流域生态修复岸线统计，含2023年洪水灾后重建中永定河门头沟段生态恢复工程"
+    },
+    {
+      "region": "怀柔区",
+      "shoreline_type": "人工岸线",
+      "length_km": 4.8,
+      "confidence": 0.89,
+      "percentage": null,
+      "source_chapter": "第4章",
+      "description": "怀柔区怀河流域人工岸线统计，含怀柔水库坝下至雁栖湖段河道两岸防洪护坡工程"
+    },
+    {
+      "region": "密云区",
+      "shoreline_type": "生态修复岸线",
+      "length_km": 9.4,
+      "confidence": 0.89,
+      "percentage": null,
+      "source_chapter": "第5章",
+      "description": "密云区密云水库库滨带生态修复岸线统计，含水库一级保护区范围内岸坡植被恢复工程"
+    },
+    {
+      "region": "密云区",
+      "shoreline_type": "人工岸线",
+      "length_km": 5.7,
+      "confidence": 0.90,
+      "percentage": null,
+      "source_chapter": "第4章",
+      "description": "密云区潮白河流域人工岸线统计，含潮河干流密云新城段及白河工业开发区段堤防"
+    },
+    {
+      "region": "延庆区",
+      "shoreline_type": "人工岸线",
+      "length_km": 6.3,
+      "confidence": 0.90,
+      "percentage": null,
+      "source_chapter": "第4章",
+      "description": "延庆区妫水河流域人工岸线统计，含妫水河延庆新城段两岸防洪堤防及世园会配套水利工程"
+    },
+    {
+      "region": "平谷区",
+      "shoreline_type": "生态修复岸线",
+      "length_km": 5.8,
+      "confidence": 0.87,
+      "percentage": null,
+      "source_chapter": "第5章",
+      "description": "平谷区泃河流域生态修复岸线统计，含泃河平谷城区段滨河森林公园近自然护岸工程"
+    },
+    {
+      "region": "房山区",
+      "shoreline_type": "人工岸线",
+      "length_km": 7.2,
+      "confidence": 0.91,
+      "percentage": null,
+      "source_chapter": "第4章",
+      "description": "房山区永定河流域人工岸线统计，含永定河房山段卢沟桥以南至河北界右岸堤防"
+    },
+    {
+      "region": "昌平区",
+      "shoreline_type": "生态修复岸线",
+      "length_km": 5.6,
+      "confidence": 0.87,
+      "percentage": null,
+      "source_chapter": "第5章",
+      "description": "昌平区山区沟域生态修复岸线统计，以白浮泉引水渠遗址沿线及南口沟生态清洁小流域为主"
+    },
+    {
+      "region": "朝阳区",
+      "shoreline_type": "人工岸线",
+      "length_km": 9.2,
+      "confidence": 0.93,
+      "percentage": null,
+      "source_chapter": "第4章",
+      "description": "朝阳区平原地区人工岸线分类统计，以萧太后河朝阳段及坝河中游城市排水功能型护砌岸线为主"
+    },
+    {
+      "region": "海淀区",
+      "shoreline_type": "生态修复岸线",
+      "length_km": 4.2,
+      "confidence": 0.86,
+      "percentage": null,
+      "source_chapter": "第5章",
+      "description": "海淀区南旱河流域生态修复岸线统计，含南旱河海淀段暗渠出口恢复明渠及两岸生态化改造"
+    },
+    {
+      "region": "丰台区",
+      "shoreline_type": "自然岸线",
+      "length_km": 3.1,
+      "confidence": 0.86,
+      "percentage": null,
+      "source_chapter": "第4章",
+      "description": "丰台区永定河流域自然岸线统计，含永定河丰台段河漫滩未开发区域残留自然岸坡"
+    },
+    {
+      "region": "大兴区",
+      "shoreline_type": "生态修复岸线",
+      "length_km": 6.8,
+      "confidence": 0.88,
+      "percentage": null,
+      "source_chapter": "第5章",
+      "description": "大兴区平原地区小微水体岸线生态修复统计，含新凤河、天堂河等中小河道近自然化改造"
+    },
+    {
+      "region": "通州区",
+      "shoreline_type": "人工岸线",
+      "length_km": 10.3,
+      "confidence": 0.92,
+      "percentage": null,
+      "source_chapter": "第4章",
+      "description": "通州区北运河流域人工岸线统计，含运河商务区至甘棠闸段景观化堤防及亲水平台工程"
+    },
+    {
+      "region": "东城区",
+      "shoreline_type": "生态修复岸线",
+      "length_km": 2.0,
+      "confidence": 0.83,
+      "percentage": null,
+      "source_chapter": "第5章",
+      "description": "东城区护城河体系生态修复岸线统计，含北护城河东城段局部生态驳岸试点改造工程"
+    },
+    {
+      "region": "西城区",
+      "shoreline_type": "人工岸线",
+      "length_km": 4.5,
+      "confidence": 0.93,
+      "percentage": null,
+      "source_chapter": "第4章",
+      "description": "西城区北护城河流域人工岸线统计，含德胜门至新街口段历史风貌保护型石砌护坡"
+    },
+    {
+      "region": "石景山区",
+      "shoreline_type": "自然岸线",
+      "length_km": 2.4,
+      "confidence": 0.86,
+      "percentage": null,
+      "source_chapter": "第5章",
+      "description": "石景山区永定河流域自然岸线补充调查，含永定河石景山段右岸山体基岩出露段自然岸坡"
+    },
+    {
+      "region": "东城区",
+      "shoreline_type": "自然岸线",
+      "length_km": 2.3,
+      "confidence": 0.84,
+      "percentage": null,
+      "source_chapter": "第4章",
+      "description": "东城区平原地区残留自然岸线调查，含南护城河龙潭段局部未硬化河岸及柳荫公园水系"
+    },
+    {
+      "region": "西城区",
+      "shoreline_type": "自然岸线",
+      "length_km": 2.5,
+      "confidence": 0.83,
+      "percentage": null,
+      "source_chapter": "第4章",
+      "description": "西城区什刹海水系自然岸线调查，含后海北岸及西海湿地公园内局部保留的自然湖岸"
+    },
+    {
+      "region": "怀柔区",
+      "shoreline_type": "自然岸线",
+      "length_km": 14.6,
+      "confidence": 0.94,
+      "percentage": null,
+      "source_chapter": "第5章",
+      "description": "怀柔区山区地形条件下白河、汤河支流自然岸线统计，以深山区未受人为干扰的原始河道为主"
+    },
+    {
+      "region": "平谷区",
+      "shoreline_type": "人工岸线",
+      "length_km": 5.9,
+      "confidence": 0.90,
+      "percentage": null,
+      "source_chapter": "第4章",
+      "description": "平谷区泃河流域人工岸线统计，含泃河平原段错河口至三河市界防洪堤防工程"
+    },
+    {
+      "region": "房山区",
+      "shoreline_type": "自然岸线",
+      "length_km": 9.6,
+      "confidence": 0.93,
+      "percentage": null,
+      "source_chapter": "第5章",
+      "description": "房山区大石河流域山区自然岸线统计，含大石河上游百花山南麓至河北镇段原始河道两岸"
+    },
+    {
+      "region": "昌平区",
+      "shoreline_type": "自然岸线",
+      "length_km": 8.2,
+      "confidence": 0.92,
+      "percentage": null,
+      "source_chapter": "第4章",
+      "description": "昌平区平原与山区过渡带自然岸线统计，含南口镇至十三陵镇段沟域河道自然岸坡"
+    },
+    {
+      "region": "延庆区",
+      "shoreline_type": "自然岸线",
+      "length_km": 13.6,
+      "confidence": 0.94,
+      "percentage": null,
+      "source_chapter": "第5章",
+      "description": "延庆区白河堡水库上游自然岸线统计，含白河延庆段从河北界至白河堡水库入库口的山区河道"
+    },
+    {
+      "region": "通州区",
+      "shoreline_type": "人工岸线",
+      "length_km": 8.4,
+      "confidence": 0.91,
+      "percentage": null,
+      "source_chapter": "第4章",
+      "description": "通州区潮白河流域人工岸线统计，含潮白河通州段左岸堤防及减河分洪闸工程护坡"
+    },
+    {
+      "region": "大兴区",
+      "shoreline_type": "自然岸线",
+      "length_km": 6.4,
+      "confidence": 0.89,
+      "percentage": null,
+      "source_chapter": "第4章",
+      "description": "大兴区凉水河流域自然岸线统计，含凉水河大兴段下游两岸残留的自然河滩及杨柳林带"
+    },
+    {
+      "region": "顺义区",
+      "shoreline_type": "自然岸线",
+      "length_km": 6.6,
+      "confidence": 0.90,
+      "percentage": null,
+      "source_chapter": "第5章",
+      "description": "顺义区温榆河流域自然岸线统计，含温榆河干流顺义段两岸保留的自然滩地及湿地"
+    },
+    {
+      "region": "丰台区",
+      "shoreline_type": "人工岸线",
+      "length_km": 7.5,
+      "confidence": 0.91,
+      "percentage": null,
+      "source_chapter": "第4章",
+      "description": "丰台区凉水河流域人工岸线统计，含凉水河丰台段城区排水功能型混凝土护砌河道"
+    },
+    {
+      "region": "朝阳区",
+      "shoreline_type": "生态修复岸线",
+      "length_km": 3.2,
+      "confidence": 0.86,
+      "percentage": null,
+      "source_chapter": "第5章",
+      "description": "朝阳区坝河流域生态修复岸线统计，含坝河朝阳段河道两岸生态化改造及滨水绿道建设工程"
+    },
+    {
+      "region": "海淀区",
+      "shoreline_type": "自然岸线",
+      "length_km": 3.3,
+      "confidence": 0.86,
+      "percentage": null,
+      "source_chapter": "第4章",
+      "description": "海淀区西山沟域自然岸线补充调查，含香山南麓樱桃沟及植物园内自然溪流岸线"
+    },
+    {
+      "region": "门头沟区",
+      "shoreline_type": "人工岸线",
+      "length_km": 4.1,
+      "confidence": 0.89,
+      "percentage": null,
+      "source_chapter": "第4章",
+      "description": "门头沟区清水河流域人工岸线统计，含清水镇及斋堂镇集镇段河道防洪护坡工程"
+    },
+    {
+      "region": "密云区",
+      "shoreline_type": "自然岸线",
+      "length_km": 11.8,
+      "confidence": 0.94,
+      "percentage": null,
+      "source_chapter": "第4章",
+      "description": "密云区安达木河流域自然岸线统计，含安达木河干流山区段及其支流红门川河自然河道"
+    },
+    {
+      "region": "怀柔区",
+      "shoreline_type": "自然岸线",
+      "length_km": 8.3,
+      "confidence": 0.93,
+      "percentage": null,
+      "source_chapter": "第4章",
+      "description": "怀柔区琉璃河及怀九河山区自然岸线统计，含九渡河镇至渤海镇段沟域河道原始岸线"
+    },
+    {
+      "region": "房山区",
+      "shoreline_type": "生态修复岸线",
+      "length_km": 6.8,
+      "confidence": 0.88,
+      "percentage": null,
+      "source_chapter": "第5章",
+      "description": "房山区拒马河流域生态修复岸线统计，含十渡风景区内拒马河两岸近自然护岸改造工程"
+    },
+    {
+      "region": "石景山区",
+      "shoreline_type": "生态修复岸线",
+      "length_km": 3.4,
+      "confidence": 0.85,
+      "percentage": null,
+      "source_chapter": "第5章",
+      "description": "石景山区永定河流域生态修复岸线统计，含永定河石景山段左岸滩地生态恢复及首钢秀池水系改造"
+    },
+    {
+      "region": "平谷区",
+      "shoreline_type": "自然岸线",
+      "length_km": 9.3,
+      "confidence": 0.92,
+      "percentage": null,
+      "source_chapter": "第4章",
+      "description": "平谷区洳河流域自然岸线统计，含洳河上游黄松峪至大华山镇段山区河道两岸自然岸坡"
+    },
+    {
+      "region": "昌平区",
+      "shoreline_type": "生态修复岸线",
+      "length_km": 5.9,
+      "confidence": 0.87,
+      "percentage": null,
+      "source_chapter": "第5章",
+      "description": "昌平区温榆河流域生态修复岸线统计，含东沙河及北沙河两岸生态缓冲带及滨水步道建设工程"
+    },
+    {
+      "region": "延庆区",
+      "shoreline_type": "自然岸线",
+      "length_km": 8.9,
+      "confidence": 0.93,
+      "percentage": null,
+      "source_chapter": "第4章",
+      "description": "延庆区官厅水库延庆辖区自然岸线统计，含水库西北岸山区段原始岸坡及妫水河入库口湿地"
+    },
+    {
+      "region": "东城区",
+      "shoreline_type": "人工岸线",
+      "length_km": 4.2,
+      "confidence": 0.93,
+      "percentage": null,
+      "source_chapter": "第4章",
+      "description": "东城区通惠河流域人工岸线统计，含通惠河东城段暗渠出口至朝阳区界段砌石护坡"
+    },
+    {
+      "region": "西城区",
+      "shoreline_type": "人工岸线",
+      "length_km": 6.3,
+      "confidence": 0.94,
+      "percentage": null,
+      "source_chapter": "第4章",
+      "description": "西城区南护城河流域人工岸线统计，含南护城河西便门至崇文门段古城墙遗址保护型护坡"
+    },
+    {
+      "region": "通州区",
+      "shoreline_type": "生态修复岸线",
+      "length_km": 6.3,
+      "confidence": 0.89,
+      "percentage": null,
+      "source_chapter": "第5章",
+      "description": "通州区温榆河流域生态修复岸线统计，含温榆河公园通州段生态恢复及亲水设施建设工程"
+    },
+    {
+      "region": "大兴区",
+      "shoreline_type": "人工岸线",
+      "length_km": 9.1,
+      "confidence": 0.92,
+      "percentage": null,
+      "source_chapter": "第4章",
+      "description": "大兴区新凤河流域人工岸线统计，含新凤河大兴段及其支流新机场排水渠硬化护砌河道"
+    },
+    {
+      "region": "顺义区",
+      "shoreline_type": "人工岸线",
+      "length_km": 10.6,
+      "confidence": 0.92,
+      "percentage": null,
+      "source_chapter": "第4章",
+      "description": "顺义区温榆河流域人工岸线统计，含温榆河顺义段两岸防洪堤防及排涝泵站出口护坡"
+    }
+  ]
+}
